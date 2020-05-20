@@ -1,0 +1,84 @@
+/*
+外部样式表
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(244,244,246);
+    padding-top: 44px;
+    padding-bottom: 49px;
+}
+
+header{
+    background: rgb(40,133,202);
+    color: white;
+    text-align: center;
+    line-height: 44px;
+    font-size: 18px;
+
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: fixed;
+
+    z-index: 999;
+}
+
+/*.DS_second_section img{*/
+    /*width:100%;*/
+    /*margin-bottom: -6px;*/
+/*}*/
+
+/*.DS_third_section{*/
+    /*padding-bottom: 44px;*/
+/*}*/
+
+.EP_first_section{
+    width:100%;
+    margin-bottom: -6px;
+    padding-top: 44px;
+}
+
+/*.EP_first_section a{*/
+    /*display: table-cell;*/
+    /*background-color: white;*/
+
+    /*text-decoration:none;*/
+    /*text-align: center;*/
+    /*vertical-align: middle;*/
+/*}*/
+
+footer{
+    background: black;
+    display: table;
+    width: 100%;
+    height: 50px;
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+footer a{
+    display: table-cell;
+    width: 20%;
+
+    text-decoration:none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+footer a span{
+    display: block;
+    font-size: 12px;
+    color:white;
+}
+
+footer a img{
+    width: 18px;
+}
